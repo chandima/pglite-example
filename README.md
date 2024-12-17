@@ -17,7 +17,7 @@ deno run --allow-read --allow-write pglite_example.ts
 PgLite embedding example: ✅
 
 ```bash
-deno run --allow-read --allow-write pglite_embed_example.ts
+deno run --allow-read --allow-write --allow-env --allow-net pglite_embed_example.ts
 ```
 
 ## Embedding Examples
