@@ -22,7 +22,6 @@ deno run --allow-read --allow-write --allow-env --allow-net pglite_embed_example
 
 ## Embedding Examples
 
-
 Embedding example (Node JavaScript). See [this blog post](https://www.datastax.com/blog/how-to-create-vector-embeddings-in-node-js).  ✅
 
 ```bash
