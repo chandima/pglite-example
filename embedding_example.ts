@@ -1,10 +1,16 @@
-import { pipeline } from "https://esm.sh/@xenova/transformers";
+/**
+ * This example demonstrates how to use the feature-extraction pipeline to generate embeddings for a given text.
+ * @see https://github.com/huggingface/transformers.js-examples/tree/main/deno-embed
+ */
+
+import { pipeline } from "npm:@huggingface/transformers";
 
 (async () => {
     // Load the feature-extraction pipeline
     const extractor = await pipeline(
         "feature-extraction",
-        "Xenova/all-MiniLM-L6-v2"
+        "Xenova/all-MiniLM-L6-v2",
+        { dtype: 'fp32' }
     );
 
     // Use the extractor to generate embeddings

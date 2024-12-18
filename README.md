@@ -40,8 +40,9 @@ Embedding example (Using local Ollama installation). ✅
 node embedding_ollama_example.js
 ```
 
-Embedding example (Deno). DOES NOT WORK! 🚫
+Embedding example (Deno). ✅
 
 ```bash
-deno run --allow-net embedding_example.ts
+deno install --allow-scripts npm:@huggingface/transformers
+deno run --allow-net --allow-ffi --allow-env --allow-read --allow-write embedding_example.ts
 ```
