@@ -56,6 +56,7 @@ Or any model tagged with [Transformers.js](https://huggingface.co/models?library
 ```bash
 deno run --allow-net --allow-ffi --allow-env --allow-read --allow-write deno_inference_example.ts
 ```
+
 Coding example (Deno). ✅
 
 ```bash
