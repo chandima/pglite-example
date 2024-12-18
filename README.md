@@ -46,3 +46,18 @@ Embedding example (Deno). ✅
 deno install --allow-scripts npm:@huggingface/transformers
 deno run --allow-net --allow-ffi --allow-env --allow-read --allow-write embedding_example.ts
 ```
+
+## Inference Examples
+
+Inference example (Deno). ✅
+Use [ONNX Community models](https://huggingface.co/onnx-community) from HuggingFace.
+Or any model tagged with [Transformers.js](https://huggingface.co/models?library=transformers.js&sort=trending) in the HuggingFace model hub.
+
+```bash
+deno run --allow-net --allow-ffi --allow-env --allow-read --allow-write deno_inference_example.ts
+```
+Coding example (Deno). ✅
+
+```bash
+deno run --allow-net --allow-ffi --allow-env --allow-read --allow-write coding_inference_example.ts
+```

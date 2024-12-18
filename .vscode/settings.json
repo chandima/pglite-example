@@ -2,8 +2,10 @@
     "cSpell.words": [
         "dtype",
         "HUGGINGFACE",
+        "onnx",
         "pglite",
         "pgvector",
+        "Smol",
         "xenova"
     ]
 }
