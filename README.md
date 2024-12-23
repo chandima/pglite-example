@@ -62,3 +62,13 @@ Coding example (Deno). ✅
 ```bash
 deno run --allow-net --allow-ffi --allow-env --allow-read --allow-write coding_inference_example.ts
 ```
+
+Inference example with local loading (Deno). ✅
+Modify code to load local models (clone models from HuggingFace into the `models` directory):
+
+* Llama-3.2-1B-Instruct
+* SmolLM2-135M-Instruct
+
+```bash
+deno run --allow-net --allow-ffi --allow-env --allow-read --allow-write deno_inference_local_example.ts
+```
